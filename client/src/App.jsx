@@ -2,7 +2,7 @@ import { Canvas } from "@react-three/fiber";
 import { Experience } from "./components/Experience";
 import { SocketManager } from "./components/SocketManager";
 
-function App() {
+export default function App() {
   return (
     <>
       <SocketManager />
@@ -13,5 +13,3 @@ function App() {
     </>
   );
 }
-
-export default App;
