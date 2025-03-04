@@ -7,6 +7,7 @@ export const charactersAtom = atom([]);
 
 export const SocketManager = () => {
   const [_characters, setCharacters] = useAtom(charactersAtom);
+
   useEffect(() => {
     function onConnect() {
       console.log("connected");
